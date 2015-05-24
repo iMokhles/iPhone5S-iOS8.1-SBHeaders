@@ -79,7 +79,7 @@
 - (void)_animateReachabilityDeactivatedWithHandler:(CDUnknownBlockType)arg1;
 - (void)_animateReachabilityActivatedWithHandler:(CDUnknownBlockType)arg1;
 - (void)_performReachabilityTransactionForActivate:(_Bool)arg1 immediately:(_Bool)arg2;
-- (id)pageController;
+- (SBAppSwitcherPageViewController *)pageController;
 - (void)settings:(id)arg1 changedValueForKey:(id)arg2;
 - (void)handleVolumeDecrease;
 - (void)handleVolumeIncrease;
